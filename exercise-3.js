@@ -1,5 +1,5 @@
 function calculateAverageAge(persons) {
-  // ...
+  let averageAge = persons.age.map()
 }
 
 const persons = [
