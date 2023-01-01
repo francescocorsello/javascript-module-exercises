@@ -1,6 +1,7 @@
 function calculateAverageAge(persons) {
-  let averageAge = persons.age.map()
-}
+  let  averageAge = persons.map((persons) =>  persons.age);
+  return averageAge.reduce((a, b) => Math.round(a + b / persons.length));
+} 
 
 const persons = [
   { name: 'Paul', age: 16 },
@@ -18,3 +19,4 @@ const persons = [
 const average = calculateAverageAge(persons);
 console.log(persons);
 console.log(average);
+console.log(persons.length);
