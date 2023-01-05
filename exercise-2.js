@@ -5,7 +5,9 @@ class Person {
   }
 }
 
-const developer = new Developer("Mario", "Rossi", "Front-end");
-console.log(
-  developer.firstName + " " + developer.lastName + " " + developer.role
-);
+// const developer = new Developer("Mario", "Rossi", "Front-end");
+const zio = new Person("zio", "df");
+// console.log(
+//   developer.firstName + " " + developer.lastName + " " + developer.role
+// );
+console.log(zio);
