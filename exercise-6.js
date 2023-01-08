@@ -24,7 +24,7 @@ class AreaCalculator {
     } else if (figure instanceof Rectangle) {
       figure = rectangle.width*rectangle.height;
     } else {
-      figure =  circle.radius*3,14;
+      figure =  circle.radius*circle.radius*3,14;
     }
     return figure;
   } 
