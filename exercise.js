@@ -13,7 +13,8 @@
 let personName = "Mario";
 
 function printAsyncName(callback ,name) {
-  callback = setTimeout(() => console.log("Hello"), 1000);
-  name = setTimeout(() => { console.log(personName); }, 2000);
+  setTimeout(callback, 1000);
+  setTimeout(() => console.log(name),  2000);
 }
-printAsyncName(() => console.log(callback), personName);
+printAsyncName(() => console.log("Hello"), personName);
+
