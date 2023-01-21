@@ -3,3 +3,12 @@ const user = {
   name: "John",
   age: 25,
 };
+
+
+function getLocal() {
+
+ return JSON.parse(localStorage.getItem("user"))
+  
+}
+
+console.log(getLocal());
