@@ -4,13 +4,6 @@ const person = {
   age: 25
 }
 
-
-let i=0;
-let keys = Object.keys(person)
-let values = Object.values(person)
-
-for (entries in person)
-{
-console.log(keys[i] + ": " + values[i]);
-i++;
+for (const key of Object.keys(person)) {
+  console.log(key + ": " + person[key])
 }
