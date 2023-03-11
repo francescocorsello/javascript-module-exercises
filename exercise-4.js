@@ -1,10 +1,6 @@
-// function sum(num1, num2, num3) {
-//   return num1 + num2 + num3;
-// }
 
-function sum(...rest) {
-  let total = rest.reduce((a,b) => a + b);
-    return  total;
+function sum(...num) {
+  return num.reduce((num1,num2)=>num1+num2,0);
 }
 
 const numbers = [1, 2, 3];
